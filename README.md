@@ -1,3 +1,3 @@
 # YouREST
 
-Framework to test rest services
+Framework to test Webservices
