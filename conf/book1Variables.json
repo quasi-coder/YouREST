@@ -1,0 +1,22 @@
+{
+    "hostname" : "localhost",
+    "port": "8081",
+    "actorId" : "${uuid()}",
+    "actorName" : "divya",
+    "email" : "test_${randomString(4)}@gmail.com",
+    "headers" : {
+        "ContentType":"application/json",
+        "uid":"divya@a.com",
+        "arrayX" : [
+            {"a" : "a1", "b" : "b1"}, {"a" : "a2", "b": "b2"}
+        ],
+        "arrayY" : ["s1", "s2", "s3"],
+        "jsonZ" : {
+            "x" : {
+                "y" : {
+                    "z" : "z1"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "hostname" : "10.0.0.0",
+    "port": "8080",
+    "actorId" : "${uuid()}",
+    "actorName" : "divya",
+    "headers" : {
+        "ContentType":"application/json",
+        "uid":"divya@a.com"
+
+    }
+}
